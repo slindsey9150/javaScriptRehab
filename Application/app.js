@@ -36,12 +36,24 @@ while(friendsAtParty < 10){
 console.log("friends at Party after while loop:", friendsAtParty);
 
 // Practicing a for loop
-for (let i = 0; i < 90; i ++){
+for (let i = 0; i < 10; i ++){
     friendsAtParty ++
+    console.log("friends at party during for loop", friendsAtParty);
+    
 }
 console.log("friends at party after for loop", friendsAtParty);
 
 console.log(helloSentence);
+
+const timesToRepeat = 5
+let character = '🤣'
+let theAnswer = " "
+
+for(let i = 0; i < timesToRepeat; i++){
+    theAnswer = theAnswer + character
+}
+console.log("theAnswer:", theAnswer);
+
 
 
 runHello()
