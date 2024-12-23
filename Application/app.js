@@ -28,10 +28,18 @@ else{
 let friendsAtParty = 0
 console.log("friends at Party before while loop:", friendsAtParty);
 
+// Practicing a while loop
+
 while(friendsAtParty < 10){
     friendsAtParty = friendsAtParty + 1
 }
 console.log("friends at Party after while loop:", friendsAtParty);
+
+// Practicing a for loop
+for (let i = 0; i < 90; i ++){
+    friendsAtParty ++
+}
+console.log("friends at party after for loop", friendsAtParty);
 
 console.log(helloSentence);
 
