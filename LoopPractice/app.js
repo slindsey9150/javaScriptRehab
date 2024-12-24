@@ -56,5 +56,34 @@ console.log("theAnswer:", theAnswer);
 
 
 
+function doAddition (firstNum, secondNum) {
+
+    return console.log(`Here is some addition:  ${firstNum} + ${secondNum} = `, firstNum + secondNum)
+
+}
+
+function doSubtraction ( firstNum, secondNum ) {
+
+    return console.log(`Here is some subtraction: ${firstNum} - ${secondNum} = `, firstNum - secondNum);
+    
+}
+
+function doMultiplication ( firstNum, secondNum ) {
+
+    return console.log(`Here is some multiplication: ${firstNum} * ${secondNum} = `, firstNum * secondNum);
+    
+}
+
+function doDivision ( firstNum, secondNum ) {
+
+    return console.log(`Here is some division: ${firstNum} / ${secondNum} = `, firstNum / secondNum);
+    
+}
+
+doAddition( 9, 8 ) 
+doSubtraction( 9, 8 )
+doMultiplication( 9, 8 )
+doDivision (9, 8 )
+
 runHello()
 yearlyRentDisplay()
